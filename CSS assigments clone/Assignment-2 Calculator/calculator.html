@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            
+            display: flex;
+            justify-content: center;
+        }
+        .main{
+            /* border: 2px solid; */
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            background-color: rgb(56, 56, 56);
+            color: white;
+            /* border-radius: 10%; */
+        }
+        .number{
+            height: 150px;
+            /* border: 2px solid salmon; */
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            font-size: 3em;
+        }
+        .first{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .second{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .third{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .fourth{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .fifth{
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        button{
+            border: none;
+            
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            background-color: grey;
+            color: white;
+            font-size: larger;
+        }
+        .big{
+            width: 100px;
+            border-radius: 25%;
+        }
+        .first button{
+            background-color: rgba(0, 255, 255, 0.282);
+        }
+        .main button:last-child{
+            background-color: rgb(255, 179, 0);
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="number"><p>7744</p></div>
+
+        <div class="first">
+            <button>
+                <p>C</p>
+            </button>
+            <button>
+                <p>+/-</p>
+            </button>
+            <button>
+                <p>%</p>
+            </button>
+            <button>
+                <p>/</p>
+            </button>
+        </div>
+        
+        <div class="second">
+            <button>
+                <p>7</p>
+            </button>
+            <button>
+                <p>8</p>
+            </button>
+            <button>
+                <p>9</p>
+            </button>
+            <button>
+                <p>X</p>
+            </button></div>
+
+        <div class="third">
+             <button>
+                <p>4</p>
+            </button>
+            <button>
+                <p>5</p>
+            </button>
+            <button>
+                <p>6</p>
+            </button>
+            <button>
+                <p>-</p>
+            </button>
+        </div>
+
+        <div class="fourth">
+             <button>
+                <p>1</p>
+            </button>
+            <button>
+                <p>2</p>
+            </button>
+            <button>
+                <p>3</p>
+            </button>
+            <button>
+                <p>+</p>
+            </button>
+        </div>
+
+        <div class="fifth">
+             <button class="big">
+                <p>0</p>
+             </button>
+            <button>
+                <p>,</p>
+            </button>
+            <button>
+                <p>=</p>
+            </button>
+        </div>
+    </div>
+</body>
+</html>
